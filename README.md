@@ -31,8 +31,9 @@ An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, desi
 
 ## 🚀 Getting Started  
 
-### 1️⃣ Clone the Repository  
 ```bash
+1️⃣ Clone the Repository  
+
 git clone https://github.com/Akansha1409/code-reviewer.git
 cd code-reviewer
 
@@ -51,14 +52,18 @@ npm start
 
 Create a .env file in backend:
 GEMINI_API_KEY=your_api_key
+```
+---
 
-📦 Deployment
+## 📦 Deployment
 
 Frontend (React) → Vercel
 
 Backend (Node/Express) → Render
 
-🔮 Future Improvements / Scope
+---
+
+## 🔮 Future Improvements / Scope
 
 🚀 Multi-language Support – Code review for Python, JavaScript, C++, etc.
 
@@ -71,5 +76,7 @@ Backend (Node/Express) → Render
 🎤 Voice Assistant – Explain code reviews in natural language.
 
 🧩 Customizable Review Rules – Let users define their own code quality rules.
+
+---
 
 🌍 Cloud Scalability – Handle larger codebases and real-time team reviews.
