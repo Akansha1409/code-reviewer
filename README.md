@@ -77,6 +77,6 @@ Backend (Node/Express) → Render
 
 🧩 Customizable Review Rules – Let users define their own code quality rules.
 
----
-
 🌍 Cloud Scalability – Handle larger codebases and real-time team reviews.
+
+---
