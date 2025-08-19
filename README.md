@@ -15,6 +15,7 @@ An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, desi
 ---
 
 ## 📊 Tech Stack  
+<div align="center">
 
 | **Technology**     | **Usage** |
 |---------------------|-----------|
@@ -26,7 +27,7 @@ An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, desi
 | Browser Extension   | In-IDE/Browser support |
 | Vercel              | Frontend deployment |
 | Render              | Backend deployment |
-
+</div>
 ---
 
 ## 🚀 Getting Started  
