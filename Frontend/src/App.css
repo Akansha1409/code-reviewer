@@ -1,0 +1,64 @@
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Panels */
+.left,
+.right {
+  flex-basis: 50%;
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.95); /* glassy */
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Editor */
+.left .code {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+/* Button */
+.review-btn {
+  margin: 1rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.review-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.5);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+/* Right Panel */
+.right {
+  padding: 1.5rem;
+  color: #e2e8f0;
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-y: auto;
+}
+
+.review-heading {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #a78bfa;
+}
