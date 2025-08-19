@@ -18,9 +18,9 @@ An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, desi
 |---------------------|-----------|
 | React + Vite        | Frontend UI |
 | Tailwind CSS        | Styling & responsiveness |
-| Node.js + Express   | Backend server |
-| MongoDB             | Database |
+| Node.js + Express + Axios + CORS   | Backend(API) |
 | Google Gemini API   | AI-powered code review |
+| `react-simple-code-editor`+ PrismJS      | code editor            |
 | Vercel              | Frontend deployment |
 | Render              | Backend deployment |
 
