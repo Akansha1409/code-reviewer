@@ -7,9 +7,7 @@ An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, desi
 ## ✨ Features  
 - ⚡ **AI-Powered Code Review** – Get instant feedback on your code quality.  
 - 🛠️ **Backend with Express.js** – Handles requests & integrates with AI APIs.  
-- 🎨 **Modern UI with React + TailwindCSS** – Clean, responsive, and attractive interface.  
-- 🔗 **Browser Extension Support** – Review code directly from your IDE/browser.  
-- 📧 **Email AI Reply** – Smart AI-generated responses for professional communication.  
+- 🎨 **Modern UI with React + TailwindCSS** – Clean, responsive, and attractive interface.    
 - ☁️ **Deployed on Vercel & Render** – Easy and fast deployment.  
 
 ---
@@ -23,7 +21,6 @@ An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, desi
 | Node.js + Express   | Backend server |
 | MongoDB             | Database |
 | Google Gemini API   | AI-powered code review |
-| Browser Extension   | In-IDE/Browser support |
 | Vercel              | Frontend deployment |
 | Render              | Backend deployment |
 
