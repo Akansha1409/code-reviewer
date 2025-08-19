@@ -1,5 +1,6 @@
 # 🤖 AI-Powered Code Reviewer  
-🔗 **Live Demo**: [Click Here](https://code-reviewer-six-sigma.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-blue?style=for-the-badge&logo=appveyor)](https://code-reviewer-six-sigma.vercel.app/)  
+✨ Instantly review your code with AI-powered suggestions and improvements!
 
 An intelligent **AI-Powered Code Reviewer** built with **MERN Stack + AI**, designed to help developers get instant code reviews, suggestions, and improvements. This tool automates code analysis while maintaining developer productivity 🚀.  
 
