@@ -1,8 +1,8 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_KEY);
+const genAI = new GoogleGenerativeAI(process.env.GROQ_API_KEY);
 const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash",
+    model: "llama-3.3-70b-versatile",
     systemInstruction: `
                 Here’s a solid system instruction for your AI code reviewer:
 
