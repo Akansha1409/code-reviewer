@@ -5,21 +5,21 @@ const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 async function generateContent(prompt) {
     try {
-        const response = await groq.chat.completions.create({
-            messages: [
-                {
-                    role: "system",
-                    content: `You are an expert code reviewer with 7+ years of experience. 
-                    Focus on Code Quality, Best Practices, Performance, and Security.
-                    Provide structured feedback with ❌ Bad Code, 🔍 Issues, ✅ Recommended Fix, and 💡 Improvements.`
-                },
-                {
-                    role: "user",
-                    content: prompt,
-                },
-            ],
-            model: "llama-3.3-70b-versatile",
-        });
+       const response = await groq.chat.completions.create({
+    messages: [
+        {
+            role: "system",
+            content: `You are an expert code reviewer with 7+ years of experience.  
+            Focus on Code Quality, Best Practices, Performance, and Security. 
+            Provide structured feedback with ❌ Bad Code, 🔍 Issues, ✅ Recommended Fix, and 💡 Improvements.`
+        },
+        {
+            role: "user",
+            content: prompt,
+        },
+    ],
+    model: "openai/gpt-oss-120b",
+});
 
         return response.choices[0].message.content;
     } catch (error) {
